@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+  nav {
+  }
+
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
+  .navbar a.menu-icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar.responsive a.menu-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navbar .navbar-menu--item {
+    height: 50px;
+  }
+}
