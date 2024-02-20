@@ -6,6 +6,7 @@
     <title>PIBE</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
   </head>
   <body>
     <header>
@@ -14,24 +15,23 @@
           <a class="main-logo" href="#">
             <img src="./assests/images/logo-pibe.png" alt="logo-iglesia" />
           </a>
-          <a
-            class="menu-button"
-            href="javascript:void(0);"
-            onclick="toggleNavMenu()"
-          >
+          <a class="menu-button" href="#" onclick="toggleNavMenu()">
             <img src="./assests/icons/menu--v1.png" alt="Menu button" />
           </a>
         </div>
-        <ul class="menu menu-display-off" id="navbarMenu">
-          <li class="menu-item"><a href="#"></a>Contacto</li>
-          <li class="menu-item"><a href="#"></a>Ministerios</li>
-          <li class="menu-item"><a href="#"></a>Mision y Vision</li>
-          <li class="menu-item"><a href="#"></a>Horarios</li>
+        <ul class="menu navbarMenu menu-display-off">
+          <li class="menu-item"><a href="#meeting">Jesús</a></li>
+          <li class="menu-item"><a href="#footer">Contacto</a></li>
+          <li class="menu-item"><a href="#hero">Quienes somos</a></li>
+          <li class="menu-item"><a href="#ministries">Ministerios</a></li>
+          <li class="menu-item"><a href="#schedules">Horarios</a></li>
+          <li class="menu-item"><a href="#mission">Mision y Vision</a></li>
+          <li class="menu-item"><a href="#activities">Actividades</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="hero">
+      <section id="hero">
         <div class="hero-container">
           <h1>Bienvenidos a nuestra iglesia</h1>
           <p class="hero-body">
@@ -44,15 +44,15 @@
           <a href="#">Conócenos</a>
         </div>
       </section>
-      <section class="meeting">
+      <section id="meeting">
         <div class="meeting-container">
           <div class="meeting-inner-container">
             <h2>¿Quieres conocer mas a cerca de Jesús?</h2>
-            <a href="#">ir</a>
+            <a href="#">ir </a>
           </div>
         </div>
       </section>
-      <section class="ministries">
+      <section id="ministries">
         <div class="minitries-container">
           <h2>Conoce Nuestros Ministerios</h2>
           <div class="ministries-carousel-container">
@@ -103,10 +103,14 @@
           </div>
         </div>
       </section>
-      <section class="schedules">
+      <section id="schedules">
+        <a name="schedules" class="anchor-collapse">seccion de horarios</a>
         <div class="schedule-container">
           <h2>Horarios</h2>
           <div class="schedules-grid-container">
+            <h3 class="schedules-grid-header">Dia</h3>
+            <h3 class="schedules-grid-header">Hora</h3>
+            <h3 class="schedules-grid-header">Evento</h3>
             <div class="schedules-grid-day">
               <h3>Domingo</h3>
             </div>
@@ -179,10 +183,47 @@
           </div>
         </div>
       </section>
-      <section class="mision"></section>
-      <section class="activities"></section>
+      <section id="mission">
+        <div class="mission-container">
+          <h2>Misión</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+            delectus eligendi, maiores nostrum minus, illum consequuntur aperiam
+            dolores amet vero fuga ut iste nihil non ea placeat ad nam eveniet!
+          </p>
+          <h2>Visión</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolor
+            assumenda, corrupti officia voluptatem sequi quis quaerat
+            perferendis maiores voluptatibus fugit eius dolore asperiores
+            similique odit. Laboriosam ipsa hic facilis!
+          </p>
+        </div>
+      </section>
+      <section id="activities">
+        <div class="activities-background">
+          <div class="activities-container">
+            <h2>¡Enterate de nuestras proximas actividades!</h2>
+            <button>Ir</button>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <div class="footer-social">
+        <a href="https://www.facebook.com/profile.php?id=100064540370439"
+          ><span></span>Visita nuestro facebook</a
+        >
+        <p>correo@gmail.com</p>
+      </div>
+      <div class="footer-location">
+        <img
+          src="./assests/images/logo-pibe.png"
+          alt="logo-primera-iglesia-bautista"
+        />
+        <p>Dirección: 24 calle 1-21, zona 1 502-Guatemala, Guatemala</p>
+      </div>
+    </footer>
     <script src="./javascript/navMenu.js"></script>
   </body>
 </html>

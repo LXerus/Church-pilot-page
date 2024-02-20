@@ -1,4 +1,21 @@
 @media screen and (min-width: 768px) {
+  :root {
+    --gray-nurse: #f2f4f1;
+    --asparagus: #7b9150;
+    --granny-smith: #86a4a4;
+    --roman-coffee: #7c6051;
+    --black-currant: #352f3c;
+    --gravel: #48444a;
+    --warm-black: #201e1c;
+    --max-width-container: 768px;
+    --min-width-container: 320px;
+  }
+
+  * {
+    font-size: 62.5%;
+  }
+
+  /**MAIN-NavBar**/
   .menu-button {
     display: none;
   }
@@ -20,5 +37,60 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  /**MAIN-ministerios**/
+
+  #ministries {
+    min-width: fit-content;
+  }
+
+  .ministries-carousel-container {
+    width: 90%;
+    max-width: var(--max-width-container);
+    height: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    scroll-snap-type: none;
+    scroll-padding: 0.1rem;
+    overflow-x: auto;
+  }
+
+  .ministry-card {
+    max-width: 300px;
+    margin-top: 3rem;
+  }
+
+  /**MAIN-Mision*/
+
+  #mission {
+    background-image: url("../assests/images/logo-pibe-v2.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .mission-container h2 {
+    margin-bottom: 4rem;
+    font-size: 3.2rem;
+    -webkit-text-stroke: 2px var(--black-currant);
+  }
+
+  .mission-container p {
+    margin: 0px 2rem 5rem;
+    color: var(--warm-black);
+    font-weight: 600;
+  }
+
+  /**FOOTER**/
+  .footer-social {
+    text-align: left;
+  }
+
+  .footer-location {
+    justify-content: center;
   }
 }

@@ -1,0 +1,37 @@
+@media screen and (min-width: 1024px) {
+  :root {
+    --gray-nurse: #f2f4f1;
+    --asparagus: #7b9150;
+    --granny-smith: #86a4a4;
+    --roman-coffee: #7c6051;
+    --black-currant: #352f3c;
+    --gravel: #48444a;
+    --warm-black: #201e1c;
+    --max-width-container: 768px;
+    --min-width-container: 320px;
+  }
+
+  * {
+    font-size: 62.5%;
+  }
+
+  /**MAIN-schedules**/
+  .schedules-grid-day h3 {
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+
+  .schedules-grid-hour p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+  }
+
+  .schedules-grid-content p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+  }
+}
