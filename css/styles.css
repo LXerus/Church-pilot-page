@@ -8,6 +8,8 @@
   --warm-black: #201e1c;
   --max-width-container: 768px;
   --min-width-container: 320px;
+  --max-height-container: 1200px;
+  --min-height-container: 768px;
 }
 
 * {
@@ -110,6 +112,12 @@ nav {
   color: var(--granny-smith);
 }
 
+.menu-item a font {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
 nav .menu-display-off {
   display: none;
 }
@@ -136,6 +144,8 @@ main {
 #hero {
   width: 100%;
   height: 100vh;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   margin: 0;
   padding: 0;
   display: flex;
@@ -147,6 +157,8 @@ main {
   width: 100%;
   max-width: var(--max-width-container);
   height: 100vh;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,6 +175,12 @@ main {
   color: var(--warm-black);
 }
 
+#hero h1 font {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+}
+
 #hero .hero-body {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -173,8 +191,20 @@ main {
   color: var(--gravel);
 }
 
+#hero .hero-body font {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
 #hero .hero-book {
   margin-bottom: 6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+#hero .hero-book font {
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.8rem;
@@ -192,6 +222,8 @@ main {
 #meeting {
   width: 100%;
   height: 100vh;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   margin: 0;
   padding: 0;
   display: flex;
@@ -206,6 +238,8 @@ main {
 .meeting-container {
   width: 100%;
   height: 100%;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -254,7 +288,9 @@ main {
 /**MAIN-ministerios**/
 #ministries {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   margin: 0;
   padding: 0;
   display: flex;
@@ -365,11 +401,12 @@ main {
 #schedules {
   width: 100%;
   height: 100vh;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   background-color: var(--gray-nurse);
 }
 
@@ -380,6 +417,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .schedule-container h2 {
@@ -466,7 +504,9 @@ main {
 
 #mission {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   margin: 0;
   padding: 0;
   display: flex;
@@ -506,7 +546,9 @@ main {
 
 #activities {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: var(--min-height-container);
+  max-height: var(--max-height-container);
   margin: 0;
   padding: 0;
   display: flex;
