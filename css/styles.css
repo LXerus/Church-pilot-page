@@ -268,8 +268,7 @@ main {
   color: var(--gray-nurse);
 }
 
-#meeting a,
-#meeting a font {
+#meeting a {
   width: fit-content;
   padding: 1rem 2rem;
   border-radius: 25%;
@@ -280,6 +279,12 @@ main {
   text-decoration: none;
   color: var(--asparagus);
   background-color: var(--roman-coffee);
+}
+
+#meeting a font {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2rem;
 }
 
 #meeting a:hover {
@@ -602,8 +607,7 @@ main {
   color: var(--gray-nurse);
 }
 
-.activities-container button,
-.activities-container button font {
+.activities-container button {
   width: 80px;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -613,6 +617,12 @@ main {
   line-height: 2.4rem;
   color: var(--asparagus);
   background-color: var(--roman-coffee);
+}
+
+.activities-container button font {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
 }
 
 .activities-container button:hover {
