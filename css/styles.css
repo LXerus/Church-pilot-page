@@ -210,13 +210,18 @@ main {
   line-height: 1.8rem;
 }
 
-#hero a,
-#hero a font {
+#hero a {
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.2rem;
   text-decoration: none;
   color: var(--asparagus);
+}
+
+#hero a font {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.2rem;
 }
 
 /**MAIN-meeting*/
@@ -258,14 +263,19 @@ main {
   align-items: center;
 }
 
-#meeting h2,
-#meeting h2 font {
+#meeting h2 {
   margin-bottom: 3rem;
   text-align: center;
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 2.6rem;
   color: var(--gray-nurse);
+}
+
+#meeting h2 font {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
 }
 
 #meeting a {
@@ -317,14 +327,19 @@ main {
   align-items: center;
 }
 
-#ministries h2,
-#ministries h2 font {
+#ministries h2 {
   margin: 5rem auto;
   font-size: 4rem;
   font-weight: 700;
   line-height: 4.2rem;
   text-align: center;
   color: var(--granny-smith);
+}
+
+#ministries h2 font {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.2rem;
 }
 
 .ministries-carousel-container {
@@ -366,8 +381,7 @@ main {
   object-fit: cover;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.16);
 }
-.ministry-card h3,
-.ministry-card h3 font {
+.ministry-card h3 {
   margin: -2rem auto 1rem;
   font-size: 1.6rem;
   font-weight: 700;
@@ -376,8 +390,13 @@ main {
   color: var(--granny-smith);
 }
 
-.ministry-card p,
-.ministry-card p font {
+.ministry-card h3 font {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.ministry-card p {
   margin: 0px 2rem 1rem;
   font-size: 1.4rem;
   font-weight: 500;
@@ -386,8 +405,13 @@ main {
   color: var(--gravel);
 }
 
-.ministry-card button,
-.ministry-card button font {
+.ministry-card p font {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+.ministry-card button {
   width: fit-content;
   height: fit-content;
   margin: 2rem auto;
@@ -400,6 +424,12 @@ main {
   line-height: 1.4rem;
   background-color: var(--asparagus);
   color: var(--gray-nurse);
+}
+
+.ministry-card button font {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4rem;
 }
 
 .ministry-card button:hover {
@@ -418,7 +448,7 @@ main {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   background-color: var(--gray-nurse);
 }
 
@@ -432,13 +462,18 @@ main {
   justify-content: center;
 }
 
-.schedule-container h2,
-.schedule-container h2 font {
+.schedule-container h2 {
   margin: 4rem auto;
   font-size: 4rem;
   font-weight: 700;
   line-height: 4.4rem;
   color: var(--granny-smith);
+}
+
+.schedule-container h2 font {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.4rem;
 }
 
 .schedules-grid-container {
@@ -451,8 +486,7 @@ main {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16);
 }
 
-.schedules-grid-header,
-.schedules-grid-header font {
+.schedules-grid-header {
   margin-bottom: 1rem;
   align-self: flex-end;
   justify-self: center;
@@ -461,6 +495,12 @@ main {
   line-height: 2.4rem;
   color: var(--asparagus);
   box-shadow: none;
+}
+
+.schedules-grid-header font {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
 }
 
 .schedules-grid-container div {
@@ -474,8 +514,7 @@ main {
   margin: 1px;
 }
 
-.schedules-grid-container .schedules-grid-day,
-.schedules-grid-container .schedules-grid-day font {
+.schedules-grid-container .schedules-grid-day {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -485,8 +524,13 @@ main {
   color: var(--asparagus);
 }
 
-.schedules-grid-container .schedules-grid-hour,
-.schedules-grid-container .schedules-grid-hour font {
+.schedules-grid-container .schedules-grid-day font {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.schedules-grid-container .schedules-grid-hour {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -497,8 +541,13 @@ main {
   color: var(--black-currant);
 }
 
-.schedules-grid-container .schedules-grid-content,
-.schedules-grid-container .schedules-grid-content font {
+.schedules-grid-container .schedules-grid-hour font {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+
+.schedules-grid-container .schedules-grid-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -507,6 +556,12 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--black-currant);
+}
+
+.schedules-grid-container .schedules-grid-content font {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.8rem;
 }
 
 .schedules-grid-container .schedules-grid-hour :nth-child(even) {
@@ -541,8 +596,7 @@ main {
   align-items: center;
 }
 
-.mission-container h2,
-.mission-container h2 font {
+.mission-container h2 {
   margin: 5rem 0;
   font-size: 2.6rem;
   font-weight: 700;
@@ -551,14 +605,25 @@ main {
   color: var(--granny-smith);
 }
 
-.mission-container p,
-.mission-container p font {
+.mission-container h2 font {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.mission-container p {
   margin: 0px 1rem 5rem;
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 2rem;
   text-align: justify;
   color: var(--gray-nurse);
+}
+
+.mission-container p font {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2rem;
 }
 
 /**Main-actividades**/

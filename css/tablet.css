@@ -43,6 +43,7 @@
 
   #ministries {
     min-width: fit-content;
+    min-height: 1024px;
   }
 
   .ministries-carousel-container {
